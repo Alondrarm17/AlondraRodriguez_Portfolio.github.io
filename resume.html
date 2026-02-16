@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Alondra</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="index.html"><span class="logo-dot"></span> Alondra</a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a class="active" href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-title reveal">
+        <h2>Resume</h2>
+        <p class="muted">PDF download + highlights</p>
+      </div>
+
+      <div class="grid two reveal">
+        <div class="card">
+          <h3>Download</h3>
+          <p>Grab the PDF version anytime:</p>
+          <a class="btn primary" href="assets/resume.pdf" download>Download Resume (PDF)</a>
+          <p class="tiny muted" style="margin-top:12px;">
+            Tip: Replace <code>assets/resume.pdf</code> whenever you update your resume.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Systems-aligned highlights</h3>
+          <ul class="list">
+            <li>Windows environment fundamentals (learning + labs)</li>
+            <li>IIS basics (learning: logs, sites, bindings)</li>
+            <li>Splunk/log analysis fundamentals (learning: search & patterns)</li>
+            <li>Access management basics (least privilege mindset)</li>
+            <li>F5 LTM/GTM: conceptual familiarity</li>
+            <li>Duck Creek: awareness/exposure to insurance systems ecosystem</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <h3>Preview (optional)</h3>
+        <p class="tiny muted">
+          GitHub Pages can’t always embed PDFs perfectly on every phone browser.
+          If you want, I can add a screenshot preview image of your resume here.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Alondra • <a href="assets/resume.pdf" download>Download Resume</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
