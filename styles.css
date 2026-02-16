@@ -68,6 +68,17 @@ body{
   border-radius:999px;
   transition: transform .15s ease, background .15s ease, color .15s ease;
 }
+
+.nav-cta{
+  border: 1px solid rgba(255,183,207,0.26);
+  background: rgba(255,183,207,0.12);
+  color: var(--text) !important;
+}
+
+.nav-cta:hover{
+  background: rgba(255,183,207,0.18) !important;
+}
+
 .nav a:hover{ background: rgba(255,255,255,0.08); color:var(--text); transform: translateY(-1px); }
 .nav a.active{ color:var(--text); background: rgba(255,183,207,0.14); border:1px solid rgba(255,183,207,0.22); }
 
