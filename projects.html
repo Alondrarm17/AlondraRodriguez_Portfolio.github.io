@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Alondra</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="index.html"><span class="logo-dot"></span> Alondra</a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="resume.html">Resume</a>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-title reveal">
+        <h2>Projects</h2>
+        <p class="muted">Add your best 3–6 projects (school + personal)</p>
+      </div>
+
+      <div class="grid two reveal">
+        <div class="card project">
+          <h3>Nile Dot Com (Java GUI e-store)</h3>
+          <p class="muted tiny">Java • GUI • File logging</p>
+          <p>
+            Built a standalone GUI application simulating an e-store: cart, totals, invoice, and transaction logging.
+          </p>
+          <div class="row">
+            <a class="btn ghost" href="#" aria-disabled="true">GitHub (add link)</a>
+            <a class="btn ghost" href="#" aria-disabled="true">Demo (optional)</a>
+          </div>
+        </div>
+
+        <div class="card project">
+          <h3>GitHub Pages Resume Site</h3>
+          <p class="muted tiny">HTML • CSS • Responsive</p>
+          <p>
+            Created a responsive portfolio site with multi-page navigation, galleries, and resume download.
+          </p>
+          <div class="row">
+            <a class="btn ghost" href="#" aria-disabled="true">Repo (add link)</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <h3>Want me to tailor these?</h3>
+        <p class="tiny muted">
+          Tell me the names of your top projects (or paste links) and I’ll rewrite them like strong bullet points for a Systems Engineer resume.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Alondra • <a href="assets/resume.pdf" download>Download Resume</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
