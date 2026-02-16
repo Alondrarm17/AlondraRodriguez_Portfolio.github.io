@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Alondra</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="index.html"><span class="logo-dot"></span> Alondra</a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-title reveal">
+        <h2>About me</h2>
+        <p class="muted">First-generation • moved at 16 • growth mindset</p>
+      </div>
+
+      <div class="grid two reveal">
+        <div class="card">
+          <h3>My story</h3>
+          <p>
+            I moved to the U.S. at 16 during my last year of high school and didn’t know English.
+            I had to adjust fast—new country, new school system, new language—while still keeping up with my goals.
+          </p>
+          <p>
+            That experience shaped my confidence in learning under pressure, asking questions, and staying consistent.
+            In IT, that translates into patient troubleshooting, clear communication, and steady problem-solving.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>What I enjoy</h3>
+          <div class="tag-row">
+            <span class="tag">Travel</span>
+            <span class="tag">Family</span>
+            <span class="tag">Building websites</span>
+            <span class="tag">Organizing systems</span>
+            <span class="tag">Learning new tech</span>
+          </div>
+
+          <div class="note">
+            <p class="tiny muted">
+              Want this to feel more “you”? Add a short paragraph about your favorite travel place and what you learned from it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <h3>What I’m looking for</h3>
+        <p>
+          I’m pursuing an IT Systems Engineer Associate role, where I can grow in Windows environments,
+          monitoring/log analysis, access management fundamentals, and supporting reliable web services.
+        </p>
+        <a class="btn primary" href="assets/resume.pdf" download>Download Resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Alondra • <a href="assets/resume.pdf" download>Download Resume</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
