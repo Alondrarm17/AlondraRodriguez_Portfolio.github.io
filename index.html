@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alondra Rodriguez Manzueta | Portfolio</title>
+  <meta name="description" content="IT portfolio — systems mindset, troubleshooting, monitoring, and projects." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="index.html"><span class="logo-dot"></span> Alondra</a>
+
+    <nav class="nav" id="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="section hero">
+      <div class="hero-left reveal">
+        <p class="pill">IT • Systems Mindset • Monitoring • Troubleshooting</p>
+        <h1>
+          Alondra <span class="accent">Rodriguez Manzueta</span><br />
+          <span class="muted">UCF IT Undergraduate • Class of 2026</span>
+        </h1>
+
+        <p class="lead">
+          I’m building toward an IT Systems Engineering role — focused on Windows environments,
+          practical troubleshooting, and learning monitoring/log analysis workflows.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="assets/resume.pdf" download>Download Resume</a>
+          <a class="btn ghost" href="resume.html">View Resume Page</a>
+        </div>
+
+        <div class="mini">
+          <span class="chip">Deltona, FL</span>
+          <span class="chip">Bilingual: English & Spanish</span>
+          <span class="chip">Open to IT roles</span>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="card profile">
+          <div class="profile-img">
+            <img
+              src="assets/img/resume-headshot.jpg"
+              alt="Headshot of Alondra"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+            />
+            <div class="img-fallback" style="display:none;">Add: assets/img/resume-headshot.jpg</div>
+          </div>
+
+          <div class="profile-text">
+            <h2>Quick highlights</h2>
+            <ul class="bullets">
+              <li>Calm, customer-first communication</li>
+              <li>Organized troubleshooting + documentation habits</li>
+              <li>Learning: Windows Server, IIS basics, Splunk/log analysis concepts</li>
+              <li>Familiar with concepts: F5 LTM/GTM, insurance platforms (Duck Creek awareness)</li>
+            </ul>
+            <p class="tiny muted">
+              Tip: Use the Resume page to show details + a PDF download.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="grid two">
+        <div class="card">
+          <h3>First-gen story</h3>
+          <p>
+            I moved to the U.S. at 16 during my last year of high school and didn’t know English.
+            That challenge trained me to learn fast, adapt, and keep showing up — the same mindset I bring to IT.
+          </p>
+          <a class="link" href="about.html">Read more →</a>
+        </div>
+
+        <div class="card">
+          <h3>Travel & family</h3>
+          <p>
+            I’m family-centered and I love travel — I’ll always be the person taking photos and planning the itinerary.
+            I added a gallery page for your pictures.
+          </p>
+          <a class="link" href="gallery.html">View gallery →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Alondra Rodriguez Manzueta • <a href="assets/resume.pdf" download>Download Resume</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
